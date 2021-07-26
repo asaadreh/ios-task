@@ -30,17 +30,17 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="h3t-mf-lUQ">
-                                            <rect key="frame" x="8" y="8" width="359" height="267"/>
+                                            <rect key="frame" x="8" y="8" width="359" height="194.5"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiC-pw-PH8" customClass="LabelWithPadding" customModule="CampaignBrowser" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="234.5" width="44.5" height="20.5"/>
+                                            <rect key="frame" x="8" y="202.5" width="60.5" height="36.5"/>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKV-MD-vzF" customClass="LabelWithPadding" customModule="CampaignBrowser" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="255" width="359" height="12"/>
+                                            <rect key="frame" x="8" y="239" width="359" height="28"/>
                                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="8"/>
                                             <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="12"/>
@@ -56,8 +56,8 @@
                                     <constraint firstAttribute="bottomMargin" secondItem="iKV-MD-vzF" secondAttribute="bottom" constant="8" id="AgS-3w-y75"/>
                                     <constraint firstItem="YiC-pw-PH8" firstAttribute="leading" secondItem="Kec-Ca-5D8" secondAttribute="leadingMargin" id="PgD-gW-tZP"/>
                                     <constraint firstItem="iKV-MD-vzF" firstAttribute="top" secondItem="YiC-pw-PH8" secondAttribute="bottom" id="QqG-b8-yhQ"/>
+                                    <constraint firstItem="YiC-pw-PH8" firstAttribute="top" secondItem="h3t-mf-lUQ" secondAttribute="bottom" id="Ske-J3-02g"/>
                                     <constraint firstItem="h3t-mf-lUQ" firstAttribute="top" secondItem="Kec-Ca-5D8" secondAttribute="topMargin" id="bUW-eS-iVs"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="h3t-mf-lUQ" secondAttribute="bottom" id="uaV-3P-jj4"/>
                                     <constraint firstItem="h3t-mf-lUQ" firstAttribute="leading" secondItem="Kec-Ca-5D8" secondAttribute="leadingMargin" id="wC4-Bv-2Cj"/>
                                 </constraints>
                                 <size key="customSize" width="375" height="283"/>
@@ -104,10 +104,10 @@
     </scenes>
     <designables>
         <designable name="YiC-pw-PH8">
-            <size key="intrinsicContentSize" width="44.5" height="20.5"/>
+            <size key="intrinsicContentSize" width="60.5" height="36.5"/>
         </designable>
         <designable name="iKV-MD-vzF">
-            <size key="intrinsicContentSize" width="28.5" height="12"/>
+            <size key="intrinsicContentSize" width="44.5" height="28"/>
         </designable>
     </designables>
 </document>
