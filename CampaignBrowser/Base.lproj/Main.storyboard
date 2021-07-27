@@ -37,14 +37,14 @@
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="850" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiC-pw-PH8" customClass="LabelWithPadding" customModule="CampaignBrowser" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="289.5" width="375" height="13.5"/>
+                                            <rect key="frame" x="0.0" y="289.5" width="375" height="20.5"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="900" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKV-MD-vzF" customClass="LabelWithPadding" customModule="CampaignBrowser" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="303" width="375" height="28"/>
+                                            <rect key="frame" x="0.0" y="318" width="375" height="13"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <edgeInsets key="layoutMargins" top="8" left="20" bottom="8" right="8"/>
                                             <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="12"/>
@@ -59,7 +59,7 @@
                                     <constraint firstAttribute="bottomMargin" secondItem="iKV-MD-vzF" secondAttribute="bottom" constant="8" id="AgS-3w-y75"/>
                                     <constraint firstItem="h3t-mf-lUQ" firstAttribute="leading" secondItem="Kec-Ca-5D8" secondAttribute="leading" id="Ib4-xx-rN8"/>
                                     <constraint firstItem="YiC-pw-PH8" firstAttribute="leading" secondItem="Kec-Ca-5D8" secondAttribute="leading" id="PgD-gW-tZP"/>
-                                    <constraint firstItem="iKV-MD-vzF" firstAttribute="top" secondItem="YiC-pw-PH8" secondAttribute="bottom" id="QqG-b8-yhQ"/>
+                                    <constraint firstItem="iKV-MD-vzF" firstAttribute="top" secondItem="YiC-pw-PH8" secondAttribute="bottom" constant="8" id="QqG-b8-yhQ"/>
                                     <constraint firstItem="YiC-pw-PH8" firstAttribute="top" secondItem="h3t-mf-lUQ" secondAttribute="bottom" id="Ske-J3-02g"/>
                                     <constraint firstAttribute="trailing" secondItem="h3t-mf-lUQ" secondAttribute="trailing" id="WZd-Z0-hkH"/>
                                     <constraint firstItem="h3t-mf-lUQ" firstAttribute="top" secondItem="Kec-Ca-5D8" secondAttribute="topMargin" id="bUW-eS-iVs"/>
@@ -110,10 +110,10 @@
     </scenes>
     <designables>
         <designable name="YiC-pw-PH8">
-            <size key="intrinsicContentSize" width="60.5" height="36.5"/>
+            <size key="intrinsicContentSize" width="60.5" height="20.5"/>
         </designable>
         <designable name="iKV-MD-vzF">
-            <size key="intrinsicContentSize" width="44.5" height="28"/>
+            <size key="intrinsicContentSize" width="44.5" height="12"/>
         </designable>
     </designables>
 </document>
