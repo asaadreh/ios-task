@@ -8,7 +8,8 @@ import RxSwift
 class CampaignCell: UICollectionViewCell {
 
     private let disposeBag = DisposeBag()
-
+    @IBOutlet weak var imageWidthConstraint: NSLayoutConstraint!
+    
     /** Used to display the campaign's title. */
     @IBOutlet private(set) weak var nameLabel: UILabel!
 
@@ -45,7 +46,7 @@ class CampaignCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-
+        
         assert(nameLabel != nil)
         assert(descriptionLabel != nil)
         assert(imageView != nil)
